@@ -1,0 +1,10 @@
+ (base) C: \users\aalam abbasi>python 
+ python 3.8.8 (default,apr 13 , 2021, 15:08:03)[MSC v.1916 64 bit (AMD64)] ::
+ type "help" , "copyright" , "credits" or "license" for more information 
+ >>> import cv2
+ >>>
+ >>> img = cv2.imread('\\users\\Aalam abbasi\\Destop\\we.jpg')
+ >>> edges = cv2.Canny (img,100,200)
+ >>> cv2.inshow ('Edge Detected Image ',edges)
+ >>> cv2.waitkey(0)
+ 
